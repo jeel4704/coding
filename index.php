@@ -1,6 +1,6 @@
 <?php session_start();
  include('dbcon.php'); ?>
-<!DOCTYPE html>
+tml>
 <html lang="en">
 <head>
         <title>GYM CLUB</title><meta charset="UTF-8" />
