@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Homepage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+  
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://nilg.ai/blog/202105/crop-monitoring-ai-the-future-of-agriculture/">A.I. Crop Monitoring</a>
+    </div>
+	<form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+	  <li class="active"><a href="aboutpage.html">About</a></li>
+      <li class="active"><a href="weather.html">Weather</a></li>
+      <li class="active"><a href="lifecycle.html">Life Cycle</a></li>
+	  <li class="active"><a href="cameradesign.html">Camera Design</a></li>
+	  <li class="active"><a href="#">Products</a></li>
+	  <li class="active"><a href="sensors.html">Sensors</a></li>
+	  <li class="active"><a href="contactus.html">Contact Us</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+      <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
+    </ul>
+	
+  </div>
+</nav>
+
+<div class="container" style="margin-top:30px">
+	<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0308521X16303754-gr1.jpg" class="center"></img>
+  <h3>A.I. Collab with Farming:</h3>
+  <div class="row">
+    <div class="col-md-12" >
+      <p>Agriculture’s role and its importance is not strange to any of us. Besides feeding us all, it allowed the first settlements and the transition from a nomad lifestyle to a sedentary way of living that 
+	  culminated in the current state of our civilization. Although there is already a lot of IoT technology and innovation being introduced in the past years, there is still lots of room for improvement.
+	  The widespread use of Artificial Intelligence allied with climate change, population growth, shortage of agricultural workers and food security concerns, propelled the agro field into seeking even more 
+	  innovative approaches to increase their yields. The picture above,  extracted from here, suggests that robots can play an important role in control, but it can be expected that the role of humans in analysis
+	  and planning is increasingly assisted by machines, so that the cycle becomes almost autonomous. Supporting this is the projection of the agricultural AI market from $519 million, by 2019, to $2.6 billion by
+	  2025, according to a Markets and Markets Report in 2019.  In this blogpost we will dive into the popular applications and common use cases of AI in agriculture.</p>    
+    </div>
+    
+  </div>
+</div>
+
+<div class="container" style="margin-top:50px">
+	<img src="https://www.gvsprinklers.com.au/wp-content/uploads/2018/03/irrigation.jpg" class="center"></img>
+  <h3>Automated Irrigation System:</h3>
+  <div class="row">
+    <div class="col-md-12" >
+      <p>The agriculture sector consumes 85% of the available freshwater in the world, and this percentage is rapidly increasing with the population growth and food demand. When dealing with open space agriculture
+	  , it is common to see irrigation systems that are highly inefficient resulting mostly in water wastage instead of soil moisture. By dispersing sensors measuring temperature, humidity, pH and soil moisture 
+	  throughout the fields it is possible to irrigate with precision just the regions that need to be irrigated in a completely automated manner. The sensor data associated with each field section is modeled to 
+	  trigger a valve to that specific region of the field.Besides this, plant evapotranspiration is also impacted by a plethora of atmospheric parameters such as humidity, wind speed, solar radiations and even 
+	  the crop factors such as the stage of growth, plant density, soil properties and pests.These can be modeled similarly to the approach before, see the work of Patil et al.. </p>    
+    </div>
+    
+  </div>
+</div>
+
+<div class="container" style="margin-top:80px">
+	<img src="https://bitrefine.group/images/1920x870/damaged_leaves_1920x870.jpg" class="center"></img>
+  <h3>Leaf Disease Detection:</h3>
+  <div class="row">
+    <div class="col-md-12" >
+      <p>It is estimated that diseases correspond to a big chunk in crop yield losses. The most widely used practice in pest and disease control is to uniformly spray pesticides over the cropping area. This practice, 
+	  although effective, has a significant financial and environmental cost.Traditionally, disease detection can be manually done by observing the color of the leaves and the presence of spots. However, it has been 
+	  leveraged by computer vision systems that are able to segment these affected leaf regions and classify them as being associated with a disease or not. Companies like SkySquirrel Technologies use drone based 
+	  aerial imaging to monitor the health of farms and aid farmers on when and where to deploy the pest controls.In a similar use case, concerning wheat, one of the most economically significant crops worldwide, 
+	  Pantazi et al. developed a new system to differentiate between diseased and healthy crops. The system detected nitrogen stressed, yellow rust infected and healthy winter wheat canopies based on hierarchical 
+	  self-organizing classifier and hyperspectral reflectance imaging data.</p>    
+    </div>
+    
+  </div>
+</div>
+
+<div class="container" style="margin-top:100px">
+	<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs43154-020-00001-w/MediaObjects/43154_2020_1_Fig4_HTML.jpg" class="center"></img>
+  <h3>Weed Detection:</h3>
+  <div class="row">
+    <div class="col-md-12" >
+      <p>Weed detection and management is another significant problem in agriculture. Many producers indicate weeds as the most important threat to crop production. The accurate detection of weeds is of high 
+	  importance given the difficulty to detect and discriminate from crops. Competition between crops and undesired weeds accounts to over $11 billion according to a research conducted in India, see here. And
+	  thus, to remove these weeds from the fields is of utmost importance to prevent space to be occupied and negatively impact the growth of the crops. To implement a system with this use case is first necessary 
+	  to differentiate the crops from the weeds, and, as we already know, computer vision is a powerful tool for doing so. Afterwards, micro spraying, or lasers can be used to remove the undesired guests. As an 
+	  example, Tamouridou et al. presented a new method based on neural networks and multispectral aerial images for the identification of Silybum marianum, a weed that is hard to eradicate and causes major loss 
+	  on crop yield.</p>    
+    </div>
+    
+  </div>
+</div>
+ 
+<div class="container" style="margin-top:130px">
+	<img src="https://ars.els-cdn.com/content/image/1-s2.0-S258972172030012X-gr2.jpg" class="center"></img>
+  <h3>Drone Related Usecases:</h3>
+  <div class="row">
+    <div class="col-md-12" >
+      <p>Aerial crop monitoring has been gaining momentum thanks to drones. With the recent advances and the diminishing of the technology prices, more research has been conducted with practical applications. 
+	  These unmanned aircrafts are being used to monitor crop health, irrigation equipment, herd and wildlife, identify weeds and manage disasters. Besides this, using their digital imaging systems, one can 
+	  obtain field elevation information that then can be used to detect drainage patterns and wet/dry spots. Farm management can also be used by real time operation monitoring to guarantee that everything is 
+	  running smoothly. Drone usage based on Computer Vision techniques for product spraying and fertilization can achieve higher precision than using the conventional tractors, and are a safer option to workers 
+	  that do not have to spray the plants manually and in close contact.New sensors mounted on drones, with high-tech cameras being the eyes of the client on the ground and optimal procedures for survey, data
+	  acquisition and analysis are continuously developed and tested, but this is not new. Satellites have been used for more than a decade to inspect large croplands and forestry, but their precision and flexibility
+	  cannot rival the usage of drones. Below you can see examples of drone usage, extracted from here.</p>    
+    </div>
+    
+  </div>
+</div>
+<div class="container" style="margin-top:150px">
+	<img src="https://ars.els-cdn.com/content/image/1-s2.0-S258972172030012X-gr4.jpg" class="center"></img>
+  <h3>Yield Mapping:</h3>
+  <div class="row">
+    <div class="col-md-12" >
+      <p>Yield prediction on a field portion level can be predicted by using a combination of machine learning techniques to analyse 3D mapping from sensor data and drone based data of soil color.
+	  With these inputs, agriculture specialists can then predict the potential soil yield for a given crop.In a study, authors developed an early yield mapping system for the identification of 
+	  immature green citrus in a citrus grove under outdoor conditions, see Sengputa et al.This system comprised texture classification by a support vector machine (SVM), Canny edge detection combined 
+	  with a graph-based connected component algorithm and Hough line detection.  In another study, the authors developed a model for the estimation of grassland biomass based on neural networks and
+	  multitemporal remote sensing data such as vegetation indices, spectral bands of red and NIR. In China, methods to predict the rice development stage based on SVM and basic geographic information 
+	  obtained from weather stations were implemented, see this paper for more. Below, we can see a visual representation of the yield prediction extracted from here.</p>    
+    </div>
+    
+  </div>
+</div>
+<div class="container" style="margin-top:140px">
+	<img src="https://imageio.forbes.com/specials-images/imageserve/602d48193da3d0409611fdac/10-Ways-AI-Has-The-Potential-To-Improve-Agriculture-in-2021/960x0.jpg?fit=bounds&format=jpg&width=960" class="center"></img>
+  <h3>Survelliance:</h3>
+  <div class="row">
+    <div class="col-md-12" >
+      <p>Although it may not be as directed to agriculture as the others, it is still a need present in the field. Farmers have to monitor large areas of land and it can certainly be done using computer 
+	  vision systems. By doing so, one can reduce the domestic and wild animal’s potential to accidentally destroy crops or experience a break-in or burglary at a remote farm location.</p>    
+    </div>
+    
+  </div>
+</div>
+
+
+
+</body>
+</html>

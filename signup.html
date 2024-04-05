@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Signup Form</title>
+
+<style>
+
+body{
+	background-color: paleturquoise;
+}
+
+h1{
+
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+h4{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+form { 
+	font-size: 20px;
+	margin: 0 auto; 
+	width:250px;
+}
+
+label{
+	font-size:20px;
+}
+
+input[type=text], input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 60%;
+  horizontal-align: middle;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+
+</head>
+
+
+<body bgcolor="" >
+
+<h1>Create a new Account</h1>
+<h4>Already Registered? Login</h4>
+
+<form action="homepage.html">
+	<label for="NAME">NAME</label><br>
+	<input type="text" id="NAME" name="NAME" placeholder="Your name here"><br><br><br>
+	<label for="EMAIL">EMAIL</label><br>
+	<input type="text" id="EMAIL" name="EMAIL" placeholder="Your email here"><br><br><br>
+	<label for="PASSWORD">PASSWORD</label><br>
+	<input type="password" id="PASSWORD" name="PASSWORD" placeholder="●●●●●●"><br><br><br>
+	<label for="USERNAME">USERNAME</label><br>
+	<input type="text" id="USERNAME" name="USERNAME" placeholder="Your username here"><br><br><br>
+
+	<input type="submit" id="Sign up" name="Sign up" value="Sign up">
+</form>
+
+</body></html>
